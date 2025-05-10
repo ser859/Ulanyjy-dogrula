@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinsiyet Doğrulama Talepleri</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f8f9fa; }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; border: 1px solid #ccc; text-align: left; }
+        th { background-color: #e9ecef; }
+        .button-container { display: flex; gap: 10px; }
+        button { padding: 6px 12px; border: none; border-radius: 4px; cursor: pointer; }
+        .approve { background-color: #28a745; color: white; }
+        .reject { background-color: #dc3545; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Cinsiyet Doğrulama Talepleri</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Ad</th>
+                <th>Kullanıcı Adı</th>
+                <th>Talep Edilen Cinsiyet</th>
+                <th>Açıklama</th>
+                <th>İşlem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ahmet Yılmaz</td>
+                <td>ahmet123</td>
+                <td>Erkek</td>
+                <td>Kimlik belgesi eklendi</td>
+                <td class="button-container">
+                    <button class="approve">Onayla</button>
+                    <button class="reject">Reddet</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Elif Kaya</td>
+                <td>elifkaya</td>
+                <td>Kadın</td>
+                <td>Video doğrulama yollandı</td>
+                <td class="button-container">
+                    <button class="approve">Onayla</button>
+                    <button class="reject">Reddet</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
